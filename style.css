@@ -10,7 +10,7 @@ header img {
   margin-top: 15px;
   margin-left: 150px;
   background-color: black;
-  filter:invert(100%);
+  filter:invert(1);
   
 }
 
@@ -84,4 +84,8 @@ footer {
 section {
   display: flex;
   flex-direction: row;
+}
+
+img {
+  filter: invert(2);
 }
